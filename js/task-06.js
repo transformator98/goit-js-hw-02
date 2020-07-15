@@ -28,19 +28,17 @@ do {
   input = prompt("Введите число!");
 
   if (input === null) {
-    console.log;
+    console.log("Отмена пользователем!");
     break;
   }
+
   input = Number(input);
   numbers.push(input);
 } while (input !== null);
-{
-  for (const number of numbers) {
+
+for (const number of numbers) {
+  if (number > 0) {
     total += number;
-    if (total === 0) {
-      console.log(`Вы не ввели число!`);
-    }
+    console.log(`Общая сумма чисел равна ${total}`);
   }
-  console.log(`Общая сумма чисел равна ${total}`);
-  console.log(numbers);
 }
