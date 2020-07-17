@@ -1,0 +1,23 @@
+.form-control {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 20px;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: 1px 1px 1px 0px rgba(0, 191, 191, 1);
+}
+
+.btn {
+  width: 204px;
+  height: 24px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: rgb(109, 178, 218);
+}
+.btn-succes {
+  background-color: rgb(125, 235, 134);
+}

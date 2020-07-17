@@ -1,6 +1,6 @@
 const formatString = function (string) {
   const maxCharacters = 40;
-  if (string.length > 40) {
+  if (string.length > maxCharacters) {
     return string.slice(0, maxCharacters) + "...";
   }
   return string;
